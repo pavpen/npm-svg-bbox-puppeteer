@@ -1,0 +1,22 @@
+{
+  "name": "npm-calculate-svg-bbox-puppeteer-test-npm-package",
+  "version": "0.0.1",
+  "description": "A project to test importing the npm-calculate-svg-bbox-puppeteer package from NPM",
+  "license": "BSD-3-Clause",
+  "author": "Pavel Penev <pavpen@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test:run": "node --import=@swc-node/register/esm-register --enable-source-maps --test tests/**/integration-test-*.ts",
+    "test": "npm install && npm run test:run"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.11.1",
+    "@swc/core": "^1.13.5",
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@pavpen.dev/svg-bbox-puppeteer": "^0.0.0"
+  }
+}
