@@ -1,2 +1,6 @@
 /dist/
 node_modules
+# Generated each time integration tests are run (to test a clean install, and
+# build):
+/tests/integration/test_local_package/package-lock.json
+/tests/integration/test_npm_package/package-lock.json

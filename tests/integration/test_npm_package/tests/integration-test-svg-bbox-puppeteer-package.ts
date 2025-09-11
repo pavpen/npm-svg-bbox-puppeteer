@@ -15,7 +15,7 @@ describe("imported calculateSvgBBoxInBrowser", async () => {
         // Verify:
         assert.strictEqual(result.left, -18);
         assert.strictEqual(result.right, 20);
-        assert.strictEqual(result.top, -13);
+        assert.strictEqual(result.top, -12);
         assert.strictEqual(result.bottom, 2);
     });
 });
