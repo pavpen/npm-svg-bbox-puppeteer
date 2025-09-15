@@ -7,7 +7,7 @@ Example:
 
 ```TypeScript
 import * as assert from 'node:assert';
-import { calculateSvgBBoxInBrowser } from 'svg-bbox-puppeteer';
+import { calculateSvgBBoxInBrowser } from '@pavpen.dev/svg-bbox-puppeteer';
 
 const svgDocument = `<svg xmlns="http://www.w3.org/2000/svg">
     <rect x="-7" y="-3" width="20" height="26"/>
